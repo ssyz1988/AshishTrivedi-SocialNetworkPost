@@ -1,0 +1,155 @@
+/*Code written by Ashish Trivedi*/
+
+/*css for div_main*/
+#div_main{
+ width: 100%;
+ margin-top: 50px;
+ margin-left: 28%;
+}	
+
+/*css for the post textarea on the top*/
+#post_textarea{
+	width:45%;
+	height:60px;
+    border-width: 1px;
+    font-size: 20px;
+}
+
+/*css for 'Create New Post' button*/
+.button_style {
+	background:#5b74a8; 
+	color:#FFF;
+	cursor:pointer;
+	padding:5px;
+    font-weight: bold;
+}
+
+/*css for the main post stream*/
+#post_stream {
+    width: 50%;
+    font: bold;
+}
+.post_wrap {
+	margin:25px 0 5px 0;
+	clear:both;
+	overflow:auto;
+}
+
+/*css for post author profile picture displayed near every post*/
+.post_wrap_author_profile_picture {
+	float:left;
+	width:10%;
+}
+
+/*css for post content*/
+.post_details {
+    width:80%;
+}
+
+/*css for displaying post author name*/
+.post_author {
+	font-size: 16px;
+    font-weight:bold;
+	color:#5b74a8;
+}
+
+/*css for displaying post text*/
+.post_text {
+	margin:7px 0;
+	font-size:15px;
+	line-height:1.5em
+}
+
+/*css for Like, Unlike and Comment details */
+.post_feedback {
+	clear:both;
+	padding:2px 10px 2px 10px;
+	font-size:12px;
+	border:solid 1px #F2F2F2;
+    width:80%;
+	margin-left:9%;
+}
+.post_feedback_like_img {
+    width:19px;
+    height:16px;
+}
+.post_feedback_like_unlike {
+	cursor:pointer;
+    padding-left:10px;
+	padding-right:5px;
+    color:#5b74a8;
+    font-weight:bold;
+}
+.post_feedback_comment {
+	cursor:pointer;
+	padding-left:20px;
+	padding-right:10px;
+    color:#5b74a8;
+    font-weight:bold;
+}
+.post_feedback_count {
+	color:#999;
+	font-size:12px;
+	padding-right:20px;
+	border-right:solid 1px #d5d5d5
+}
+
+/*css for post timestamp */
+.post_timestamp {
+	color:#999;
+	font-size:12px;
+	padding-right:20px;
+    float: right;
+}
+
+/*css for comments */ 
+.comment {
+	background-color:#fafafa;
+	border:solid 1px #F2F2F2;
+	padding-top:5px;
+	margin:2px 0
+}
+.comment_author_profile_picture {
+	margin:0px;
+	float:left;
+}
+.comment_author {
+	margin:0px 0px 0px 2px;
+	color:#5b74a8;
+    padding-left:40px;
+    font-size: 14px;
+}
+.comment_author_profile_picture img {
+	width:25px;
+	height:25px
+}
+.comment_text {
+	padding-left:40px;
+	color:#555;
+	font-size:12px
+}
+.comment_text a {
+	color:#099;
+	font-weight:100;
+    font-size:14px
+}
+.comment_text textarea {
+	width:70%;
+	resize:none;
+	border:none; 
+}
+
+/*css for line seperating two posts */
+hr.soften.special {
+	margin-top:20px
+}
+hr.soften {
+	height:1px;
+	background-image:-webkit-linear-gradient(left, transparent, rgba(0, 0, 0, .1), transparent);
+	background-image:-moz-linear-gradient(left, transparent, rgba(0, 0, 0, .1), transparent);
+	background-image:-ms-linear-gradient(left, transparent, rgba(0, 0, 0, .1), transparent);
+	background-image:-o-linear-gradient(left, transparent, rgba(0, 0, 0, .1), transparent);
+	border:0;
+	clear:both;
+	behavior:url(PIE.php)
+}
